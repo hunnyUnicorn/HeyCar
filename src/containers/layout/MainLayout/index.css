@@ -1,0 +1,9 @@
+.main-layout {
+  margin: var(--header-height) 0 var(--footer-height) 0;
+}
+
+.main-layout:after {
+  content: "";
+  clear: both;
+  display: block;
+}

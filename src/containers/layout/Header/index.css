@@ -1,0 +1,7 @@
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: var(--header-height);
+  border-bottom: 2px solid #F3F6F9;
+}
