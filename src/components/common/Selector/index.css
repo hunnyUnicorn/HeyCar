@@ -1,0 +1,46 @@
+.dropdown-button {
+  background-color: var( --primary-component );
+  color: var( --component-color );
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  padding: 8px 9px 8px 13px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.dropdown-button img {
+  float: right;
+  margin-top: 3px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0 23px;
+}
+
+.dropdown-content {
+  margin-top: 2px;
+  width: 100%;
+  position: absolute;
+  background-color: var( --primary-component );
+  padding-top: 13px;
+  overflow: auto;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: var( --component-color );
+  margin: 0 0 8px 13px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}

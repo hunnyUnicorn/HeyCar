@@ -1,0 +1,70 @@
+.report-table {
+  border-radius: 10px;
+  margin-top: 27px;
+  background-color: var( --table-background );
+  padding: 18px 25px 17px 20px;
+}
+
+.report-table-title {
+  color: var( --primary-color );
+  margin: 0 25px 34px 5px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.project {
+  margin-top: 5px;
+}
+
+.project-title {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.project-title.active {
+  margin-bottom: 15px;
+}
+
+.project-name {
+  float: left;
+}
+.project-amout {
+  float:right;
+}
+
+.gateway {
+  background-color: #FFF;
+  margin: 0 0 5px 15px;
+  padding: 6px 17px 4px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164.4%;
+}
+.gateway.even {
+  background-color: var(--table-background);
+}
+.gateway.forward {
+  margin-right: 0px !important;
+}
+
+.cell {
+}

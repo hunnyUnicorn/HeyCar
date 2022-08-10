@@ -2,5 +2,19 @@
   position: fixed;
   bottom: 0px;
   height: var(--footer-height);
+  background-color: var(--primary-background);
   width: 100%;
+}
+
+.footer-text {
+  margin: 22px 0 22px 100px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: var( --title-color );
 }

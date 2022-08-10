@@ -1,0 +1,11 @@
+.black-border {
+  z-index: 1;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #33333355;
+  text-align: center;
+  line-height: 100vh;
+  justify-content: center;
+}

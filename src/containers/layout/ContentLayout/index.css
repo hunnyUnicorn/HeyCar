@@ -1,5 +1,0 @@
-.content-layout {
-  width: calc( 100% - var(--sidebar-width) );
-  background-color: #0d7963;
-  float: right;
-}

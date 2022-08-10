@@ -1,11 +1,11 @@
 import './index.css';
 
-const CustomIcon = (props) => {
+const SidebarIcon = (props) => {
   return (
-    <div className='custom-icon'>
+    <div className='sidebar-icon'>
       <img src={props.imageSource}/>
     </div>
   );
 }
 
-export default CustomIcon;
+export default SidebarIcon;

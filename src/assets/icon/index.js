@@ -5,6 +5,8 @@ import IconLogo from './logo.png'
 import IconMenu from './menu.png'
 import IconPower from './power.png'
 import IconWindows from './windows.png'
+import IconAngle from './angle-down.png'
+import IconCalendar from './calendar.png'
 
 export {
   IconChart,
@@ -13,5 +15,7 @@ export {
   IconLogo,
   IconMenu,
   IconPower,
-  IconWindows
+  IconWindows,
+  IconAngle,
+  IconCalendar,
 }

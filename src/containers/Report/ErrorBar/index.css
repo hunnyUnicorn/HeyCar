@@ -1,0 +1,11 @@
+.error-bar {
+  margin-top: 110px;
+  text-align: center;
+  width: 100%;
+  color: var( --primary-color );
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}

@@ -1,0 +1,18 @@
+.button {
+  background-color: var(--secondary-component);
+  border: none;
+  border-radius: 5px;
+  color: var(--component-color);
+  padding: 8px 10px;
+  display: inline-block;
+  
+  margin-left: 23px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+}

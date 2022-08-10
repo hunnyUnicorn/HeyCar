@@ -1,22 +1,34 @@
 body {
   --header-height: 80px;
-  --footer-height: 50px;
+  --footer-height: 63px;
   --sidebar-width: 96px;
+  
+  /* font color */
+  --primary-color: #011F4B;
+  --component-color: #FFFFFF;
+  --disabled-color: #7E8299;
+  --title-color: #005B96;
+
+  /* layout background color */
+  --primary-background: #FFF;
+  --secondary-background: #F1FAFE;
+  --table-background: #F1FAFE;
+
+  
+  /* component background color */
+  --primary-component: #1BC5BD;
+  --primary-active-component: #26afa8;
+  --primary-disabled-component: #eee;
+  --secondary-component: #005B96;
+
+  --usericon-background: #F6CA65;
+
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-  font-size: 14px;
-  display: block;
+  background-color: var( --primary-background );
 }
